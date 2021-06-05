@@ -58,7 +58,7 @@ img {
   margin: auto auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .section.no-pading {
@@ -214,13 +214,13 @@ img {
 .benefits-list {
   display: flex;
   margin-right: -30px;
-  outline: 1px solid #e818c5;
+  /* outline: 1px solid #e818c5; */
   /* justify-content: space-between; */
 }
 .benefits-list > .benefits-list-item {
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
-  outline: 1px solid #18e822;
+  /* outline: 1px solid #18e822; */
 }
 
 .benefits-list-item .suptitle {
@@ -264,13 +264,13 @@ img {
 .work-examples-img-list {
   display: flex;
   margin-right: -30px;
-  outline: 1px solid #e818d7;
+  /* outline: 1px solid #e818d7; */
   /* padding-bottom: 94px; */
   /* font-size: 0px; */
 }
 
 .work-examples-img-list > .examples-img-list-item {
-  outline: 1px solid #44ec1a;
+  /* outline: 1px solid #44ec1a; */
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   /* display: inline-block; */
@@ -310,12 +310,12 @@ img {
 .team {
   display: flex;
   margin-right: -30px;
-  outline: 1px solid #e818d7;
+  /* outline: 1px solid #e818d7; */
   /* font-size: 0px; */
 }
 
 .team > .team-item {
-  outline: 1px solid #5ae619;
+  /* outline: 1px solid #5ae619; */
   flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
   /* display: inline-block; */
@@ -386,6 +386,10 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.address-contacts:not(:last-child) {
+  margin-bottom: 9px;
 }
 /*=====================================*/
 /*==============ПОРТФОЛИО==============*/
