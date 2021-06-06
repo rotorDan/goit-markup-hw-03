@@ -55,10 +55,11 @@ img {
 }
 .container {
   width: 1200px;
-  margin: auto auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
+  /* background-color: tomato; */
+  outline: 2px solid tomato;
 }
 
 .section.no-pading {
@@ -75,8 +76,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-}
-.navigation {
   margin-right: auto;
 }
 
@@ -130,6 +129,7 @@ img {
 
 .site-nav {
   display: flex;
+  align-items: center;
 }
 .site-nav-item:not(:last-child),
 .address-list:not(:last-child) {
@@ -219,7 +219,6 @@ img {
 }
 .benefits-list > .benefits-list-item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-right: 30px;
   /* outline: 1px solid #18e822; */
 }
 
@@ -272,12 +271,11 @@ img {
 .work-examples-img-list > .examples-img-list-item {
   /* outline: 1px solid #44ec1a; */
   flex-basis: calc(100% / 3 - 30px);
-  margin-right: 30px;
   /* display: inline-block; */
 }
 
 .examples-img-list-item:not(:nth-child(3n)) {
-  /* margin-right: 30px; */
+  margin-right: 30px;
 }
 
 .work-examples {
@@ -309,6 +307,7 @@ img {
 
 .team {
   display: flex;
+  flex-wrap: wrap;
   margin-right: -30px;
   /* outline: 1px solid #e818d7; */
   /* font-size: 0px; */
@@ -317,8 +316,11 @@ img {
 .team > .team-item {
   /* outline: 1px solid #5ae619; */
   flex-basis: calc(100% / 4 - 30px);
-  margin-right: 30px;
   /* display: inline-block; */
+}
+
+.team-item:not(:nth-child(4n)) {
+  margin-right: 30px;
 }
 
 .team-item {
@@ -448,7 +450,6 @@ img {
 .cards-set > .cards-set-item {
   /* display: inline-block; */
 
-  margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc(100% / 3 - 30px);
   /* outline: 1px solid #42e818; */
